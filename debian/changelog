@@ -1,0 +1,11 @@
+liburi-cpan-perl (1.007-2) unstable; urgency=medium
+
+  * Source-only no-change re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 21 Oct 2020 17:28:07 +0200
+
+liburi-cpan-perl (1.007-1) unstable; urgency=low
+
+  * Initial release (closes: #971083).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 27 Sep 2020 16:51:19 +0200

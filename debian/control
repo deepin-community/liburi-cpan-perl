@@ -1,0 +1,26 @@
+Source: liburi-cpan-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcpan-distnameinfo-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     liburi-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liburi-cpan-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liburi-cpan-perl.git
+Homepage: https://metacpan.org/release/URI-cpan
+Rules-Requires-Root: no
+
+Package: liburi-cpan-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libcpan-distnameinfo-perl,
+         liburi-perl
+Description: module providing URLs for CPAN elements
+ URI::cpan provides methods for creating URIs that refer to authors or
+ distributions on the CPAN.
